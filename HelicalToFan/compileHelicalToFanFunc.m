@@ -1,1 +1,0 @@
-mex -v -largeArrayDims  COMPFLAGS="$COMPFLAGS -fopenmp -std=c++11" -lgomp HelicalToFanFunc_mex.cpp
