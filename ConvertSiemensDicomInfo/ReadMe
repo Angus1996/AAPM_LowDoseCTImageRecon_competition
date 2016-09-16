@@ -1,3 +1,0 @@
-Convert all different kinds of uint16/uint8 data to floats/doubles or float array according to the AAPM dicom format provided by Siemens.
-
-All the functions have to be compiled in MATLAB with mex command before it can be called in MATLAB.
