@@ -6,7 +6,7 @@ mex -largeArrayDims cov_8uint8_to_2floats.cpp
 mex -largeArrayDims cov_8uint8_to_double.cpp
 mex -largeArrayDims cov_uint8_to_double.cpp
 mex -largeArrayDims cov_uint8_to_PhoStat.cpp
-mex -largeArrayDims -lgomp HelicalToFanFunc_mex.cpp
+mex -largeArrayDims HelicalToFanFunc_mex.cpp
 
 mexcuda gpuDeviceCount_mex.cu
 mexcuda MultiSlicesBackGPU.cu NVCC_FLAGS=--use_fast_math 
