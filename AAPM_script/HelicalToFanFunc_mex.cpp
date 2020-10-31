@@ -22,7 +22,6 @@
 #include <iostream>
 #include <new>
 #include <exception>
-#include <omp.h>
 #include <thread>
 namespace AAPM {
 	template<typename T>
